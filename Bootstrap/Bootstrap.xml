@@ -1,0 +1,61 @@
+<bootstrap>
+	<descriptionBootstrap>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. You can use Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery with Bootstrap.</descriptionBootstrap>
+	<useBootstrap>To use Bootstrap, you need to copy-paste a link inside the head of your page to load the CSS of Bootstrap and some scripts to load the JavaScripts functions</useBootstrap>
+	<cssLink>Inside tags, in your head, paste this: link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"</cssLink>
+	<scripts>
+		<script>Inside script tag, paste this: src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"</script>
+		<script>Inside script tag, paste this: src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"</script>
+		<script>Inside script tag, paste this: src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"</script>
+	</scripts>
+	<classes>
+		<class>
+			<name>Alerts</name>
+			<description>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</description>
+			<types>
+				<type>
+					<nameType>alert-primary</nameType>
+					<descriptionType>Prints a blue alert message in the screen.</descriptionType>
+					<useExample>Inside the tags you need to add this: "class="alert alert-primary" role="alert""</useExample>
+				</type>
+				<type>
+					<nameType>alert-warning</nameType>
+					<descriptionType>Prints a yellow alert on the screen.</descriptionType>
+					<useExample>Inside the tags you need to add this: "class="alert alert-warning" role="alert""</useExample>
+				</type>
+			</types>
+		</class>
+		<class>
+			<name>Badges</name>
+			<description>Badges can be used as part of links or buttons to provide a counter.</description>
+			<types>
+				<type>
+					<nameType>badge-info</nameType>
+					<descriptionType>Creates a blue badge to provide information</descriptionType>
+					<useExample>Inside the tags you need to add this: "class="badge badge-info""</useExample>
+				</type>
+			</types>
+		</class>
+		<class>
+		<name>Buttons</name>
+		<description>Buttons are used for actions in forms, dialogs, and more. The .btn classes are designed to be used with the button element. </description>
+			<types>
+				<type>
+					<nameType>btn-danger</nameType>
+					<descriptionType>Create a red button</descriptionType>
+					<useExample>Inside the tags you need to add this: "type="button" class="btn btn-danger""</useExample>
+				</type>
+			</types>
+		</class>
+		<class>
+		<name>Carousel</name>
+		<description>The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript.</description>
+			<types>
+				<type>
+					<nameType>carousel slide</nameType>
+					<descriptionType>A sliding carousel</descriptionType>
+					<useExample>Inside the tags you need to add this: "class="carousel slide""</useExample>
+				</type>
+			</types>
+		</class>
+	</classes>
+</bootstrap>
