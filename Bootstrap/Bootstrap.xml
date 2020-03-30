@@ -16,6 +16,7 @@
 					<nameType>alert-primary</nameType>
 					<descriptionType>Prints a blue alert message in the screen.</descriptionType>
 					<useExample>Inside the tags you need to add this: "class="alert alert-primary" role="alert""</useExample>
+					<image>img/alertprimary.png</image>
 				</type>
 				<type>
 					<nameType>alert-warning</nameType>
@@ -32,6 +33,7 @@
 					<nameType>badge-info</nameType>
 					<descriptionType>Creates a blue badge to provide information</descriptionType>
 					<useExample>Inside the tags you need to add this: "class="badge badge-info""</useExample>
+					<image>img/badgeInfo.png</image>
 				</type>
 			</types>
 		</class>
@@ -43,6 +45,7 @@
 					<nameType>btn-danger</nameType>
 					<descriptionType>Create a red button</descriptionType>
 					<useExample>Inside the tags you need to add this: "type="button" class="btn btn-danger""</useExample>
+					<image>img/btndanger.png</image>
 				</type>
 			</types>
 		</class>
