@@ -1,159 +1,388 @@
-
-<?xml version="1.0" encoding="UTF-8">
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-  <html version="-//W3C//DTD XHTML 1.1//EN"
-    xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.w3.org/1999/xhtml
-                        http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link title="Bootstrap" type="xml" href="Bootstrap.xml">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>Bootstrap</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes on Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #6900ff;
+        }
+        i {
+            color: #6c757d !important;
+        }
+    </style>
 </head>
 <body>
-  <!-- All the other pages will have the same format, on each page we will give a description of the class a list of all subclasses -->
-  <div class="menu">
-    <ul>
-      <li>
-        <a class="menuitem" href="index.html">What is Bootstrap?</a>
-      </li>
-      <li>
-        <a class="menuitem" href="Bootstrap.xml">Classes on Bootstrap</a>
-        <ul>
-			<p>At this moment, only "what is Bootstrap" and "Classes on Bootstrap" is functional</p>
-			<h1>Work in progress</h1>
-          <li>
-            <a class="menuitem" href="alerts.html">Alerts</a>
-          </li>
-          <li>
-            <a class="menuitem" href="dropdowns.html">Dropdowns</a>
-          </li>
-          <li>
-            <a class="menuitem" href="navbar.html">Navbar</a>
-          </li>
-          <li>
-            <a class="menuitem" href="badges.html">Badges</a>
-          </li>
-          <li>
-            <a class="menuitem" href="flexbox.html">Flexbox</a>
-          </li>
-          <li>
-            <a class="menuitem" href="navs.html">Navs</a>
-          </li>
-          <li>
-            <a class="menuitem" href="borders.html">Borders</a>
-          </li>
-          <li>
-            <a class="menuitem" href="pagination.html">Pagination</a>
-          </li>
-          <li>
-            <a class="menuitem" href="Breadcrumbs.html">Breadcrumbs</a>
-          </li>
-          <li>
-            <a class="menuitem" href="popover.html">Popover</a>
-          </li>
-          <li>
-            <a class="menuitem" href="positioning.html">Positioning</a>
-          </li>
-          <li>
-            <a class="menuitem" href="buttonGroups.html">Button Groups</a>
-          </li>
-          <li>
-            <a class="menuitem" href="formInputGroups.html">Form Input Groups</a>
-          </li>
-          <li>
-            <a class="menuitem" href="progress.html">Progress</a>
-          </li>
-          <li>
-            <a class="menuitem" href="buttonModifiers.html">Button Modifiers</a>
-          </li>
-          <li>
-            <a class="menuitem" href="scrollSpy.html">Scroll Spy</a>
-          </li>
-          <li>
-            <a class="menuitem" href="buttons.html">Buttons</a>
-          </li>
-          <li>
-            <a class="menuitem" href="forms.html">Froms</a>
-          </li>
-          <li>
-            <a class="menuitem" href="sizing.html">Sizing</a>
-          </li>
-          <li>
-            <a class="menuitem" href="spacing.html">Spacing</a>
-          </li>
-          <li>
-            <a class="menuitem" href="cards.html">Cards</a>
-          </li>
-          <li>
-            <a class="menuitem" href="grid.html">Grid</a>
-          </li>
-          <li>
-            <a class="menuitem" href="spinning.html">Spinning</a>
-          </li>
-          <li>
-            <a class="menuitem" href="images.html">Images</a>
-          </li>
-          <li>
-            <a class="menuitem" href="tables.html">Tables</a>
-          </li>
-          <li>
-            <a class="menuitem" href="listGroup.html">List Group</a>
-          </li>
-          <li>
-            <a class="menuitem" href="carousel.html">Carousel</a>
-          </li>
-          <li>
-            <a class="menuitem" href="collapse.html">Collapse</a>
-          </li>
-          <li>
-            <a class="menuitem" href="colors.html">Colors</a>
-          </li>
-          <li>
-            <a class="menuitem" href="mediaObjects.html">Media Objects</a>
-          </li>
-          <li>
-            <a class="menuitem" href="text.html">Text</a>
-          </li>
-          <li>
-            <a class="menuitem" href="misc.html">Misc</a>
-          </li>
-          <li>
-            <a class="menuitem" href="customForms.html">Custom Forms</a>
-          </li>
-          <li>
-            <a class="menuitem" href="modal.html">Modal</a>
-          </li>
-          <li>
-            <a class="menuitem" href="display.html">Display</a>
-          </li>
-          <li>
-            <a class="menuitem" href="toasts.html">Toasts</a>
-          </li>
-          <li>
-            <a class="menuitem" href="tooltips.html">Tooltips</a>
-          </li>
-          <li>
-            <a class="menuitem" href="typography.html">Typography</a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-  <div class="content">
-    <!-- We will get this information from the xml document -->
-    <p>
-      What is Bootstrap?
-    </p>
-    <p>
-      Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. You can use Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery with Bootstrap.
-    </p>
-    <p>
-      To use Bootstrap, you need to copy-paste a link inside the head of your page to load the CSS of Bootstrap and some scripts to load the JavaScripts functions
-    </p>
-  </div>
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="javascript:void(0)">Webdemic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">What's Bootstrap? <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="bootstrap.html">Classes on Bootstrap</a>
+            </li>
+          </ul>
+        </div>
+    </nav> -->
+    <div style="height: 25px;"></div>
+    <div class="container">
+        <div class="text-white">
+            <h4>What is Bootstrap?</h4>
+            <p>
+              Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. You can use Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery with Bootstrap.
+            </p>
+            <p>
+              To use Bootstrap, you need to copy-paste a link inside the head of your page to load the CSS of Bootstrap and some scripts to load the JavaScripts functions
+            </p>
+        </div>
+        
+        <div style="height: 25px;"></div>
+        <div class="card">
+            <div class="card-header"><h4>Classes on Bootstrap</h4></div>
+            <div class="card-body">
+                <div class="card-title">
+                    Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. You can use Sass variables and mixins, 
+                    responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery with Bootstrap.
+                </div>
+                <p class="card-text"><i>To use Bootstrap, you need to copy-paste a link inside the head of your page to load the CSS of Bootstrap and some scripts to load the JavaScripts functions:</i></div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Inside tags, in your head link href, paste this: <code>https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css</code></li>
+                    <li class="list-group-item">Inside script tag href, paste this: <code>https://code.jquery.com/jquery-3.4.1.slim.min.js</code></li>
+                    <li class="list-group-item">Inside script tag href, paste this: <code>https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js</code></li>
+                    <li class="list-group-item">Inside script tag href, paste this: <code>https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js</code></li>
+                </ul>
+                <div class="col-12">
+                    <div class="card-body">
+                        <h5 class="card-title">Alerts</h5>
+                        <div class="col-12">
+                            <div class="card-title">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>alert-primary</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Prints a blue alert message in the screen.</li>
+                                    <li class="list-group-item">Inside the tags you need to add this: <code>class="alert alert-primary" role="alert"</code></li>
+                                    <li class="list-group-item"><div class="alert alert-primary" role="alert">A simple primary alert—check it out!</div></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>alert-warning</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Prints a yellow alert on the screen.</li>
+                                    <li class="list-group-item">Inside the tags you need to add this: <code>class="alert alert-warning" role="alert"</code></li>
+                                    <li class="list-group-item"><div class="alert alert-warning" role="alert">A simple warning alert—check it out!</div></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>alert-light</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Prints a grey transparent alert on the screen.</li>
+                                    <li class="list-group-item">Inside the tags you need to add this: <code>class="alert alert-light" role="alert"</code></li>
+                                    <li class="list-group-item"><div class="alert alert-light" role="alert">A simple light alert—check it out!</div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Badges</h5>
+                        <div class="col-12">
+                            <div class="card-title">Badges can be used as part of links or buttons to provide a counter.</div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>badge-primary</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Creates a blue badge to provide a primary counter</li>
+                                    <li class="list-group-item">Inside the tags you need to add this: <code>class="badge badge-primary"</code></li>
+                                    <li class="list-group-item"><div class="badge badge-primary">badge-primary</div></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>badge-info</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Creates a turquoise badge to provide a information counter</li>
+                                    <li class="list-group-item">Inside the tags you need to add this: <code>class="badge badge-info"</code></li>
+                                    <li class="list-group-item"><div class="badge badge-info">badge-info</div></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>badge-success</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Creates a green badge to provide a succesful counter</li>
+                                    <li class="list-group-item">Inside the tags you need to add this: <code>class="badge badge-success"</code></li>
+                                    <li class="list-group-item"><div class="badge badge-success">badge-success</div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Buttons</h5>
+                        <div class="col-12">
+                            <div class="card-title">Buttons are used for actions in forms, dialogs, and more. The .btn classes are designed to be used with the button element.</div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>btn-light</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Create a white button</li>
+                                    <li class="list-group-item">Inside the tags you need to add this: <code>class="btn btn-light"</code></li>
+                                    <li class="list-group-item"><button class="btn btn-light">Click</button></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>btn-warning</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Create a yellow button</li>
+                                    <li class="list-group-item">Inside the tags you need to add this: <code>class="btn btn-warning"</code></li>
+                                    <li class="list-group-item"><button class="btn btn-warning">Click</button></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>btn-danger</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Create a red button</li>
+                                    <li class="list-group-item">Inside the tags you need to add this: <code>class="badge badge-info"</code></li>
+                                    <li class="list-group-item"><button class="btn btn-danger">Click</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Cards</h5>
+                        <div class="col-12">
+                            <div class="card-title">A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options</div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>card</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Card creates a little panel with the possibility of adding information like titles, subtitles, etc... inside it</li>
+                                    <li class="list-group-item">Inside a img tag you need to add this: <code>class="card"</code></li>
+                                    <!-- <li class="list-group-item"><button class="btn btn-light">Click</button></li> -->
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>card-body</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Card-body creates a little panel with the possibility of adding a text content inside it</li>
+                                    <li class="list-group-item">Inside a img tag you need to add this: <code>class="card-body"</code></li>
+                                    <!-- <li class="list-group-item"><button class="btn btn-warning">Click</button></li> -->
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>card-img-top</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Inside a div with a card class, this class add one image on the top of the card panel</li>
+                                    <li class="list-group-item">Inside a img tag you need to add this: <code>class="card-img-top"</code></li>
+                                    <!-- <li class="list-group-item"><button class="btn btn-danger">Click</button></li> -->
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>An Example</i></div>
+                                <div class="card m-auto" style="width: 18rem;">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Carousel</h5>
+                        <div class="col-12">
+                            <div class="card-title">The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript.</div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>carousel slide</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">A sliding carousel</li>
+                                    <li class="list-group-item">Inside the tags you need to add this: <code>class="carousel slide"</code></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>An Example</i></div>
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Dropdown</h5>
+                        <div class="col-12">
+                            <div class="card-title">Dropdowns are toggleable, contextual overlays for displaying lists of links and more.</div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>dropdown</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Dropdown deploy a menu under the dropdown button</li>
+                                    <li class="list-group-item">This is a code example:
+    <pre style="color: #e83e8c; word-wrap: break-word;">
+        <code>
+            &lt;div class="dropdown"&gt;
+                &lt;button class="btn btn-secondary dropdown-toggle" id="dropdownMenu1" aria-expanded="false" aria-haspopup="true" type="button" data-toggle="dropdown"&gt;
+                    Dropdown
+                &lt;/button&gt;
+                &lt;div class="dropdown-menu" aria-labelledby="dropdownMenu1"&gt;
+                    &lt;a class="dropdown-item" href="#!">Action&lt;/a&gt;
+                    &lt;a class="dropdown-item" href="#!">Another action&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        </code>
+    </pre>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle" id="dropdownMenu1" aria-expanded="false" aria-haspopup="true" type="button" data-toggle="dropdown">
+                                                Dropdown
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                <a class="dropdown-item" href="#!">Action</a>
+                                                <a class="dropdown-item" href="#!">Another action</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>dropright</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Dropright deploy a menu at the right of the dropdown button</li>
+                                    <li class="list-group-item">This is a code example:
+    <pre style="color: #e83e8c; word-wrap: break-word;">
+        <code>
+            &lt;div class="btn-group dropright"&gt;
+                &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+                    Dropright
+                &lt;/button&gt;
+                &lt;div class="dropdown-menu" x-placement="right-start" style="position: absolute; transform: translate3d(111px, 0px, 0px); top: 0px; left: 0px; will-change: transform;"&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        </code>
+    </pre>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="btn-group dropright">
+                                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Dropright
+                                            </button>
+                                            <div class="dropdown-menu" x-placement="right-start" style="position: absolute; transform: translate3d(111px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="card-text font-weight-bold"><i>dropleft</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Dropleft deploy a menu at the left of the dropdown button</li>
+                                    <li class="list-group-item">This is a code example:
+    <pre style="color: #e83e8c; word-wrap: break-word;">
+        <code>
+            &lt;div class="btn-group dropleft"&gt;
+                &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+                    Dropright
+                &lt;/button&gt;
+                &lt;div class="dropdown-menu" x-placement="right-start" style="position: absolute; transform: translate3d(111px, 0px, 0px); top: 0px; left: 0px; will-change: transform;"&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        </code>
+    </pre>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="btn-group dropleft">
+                                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Dropright
+                                            </button>
+                                            <div class="dropdown-menu" x-placement="right-start" style="position: absolute; transform: translate3d(111px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Form</h5>
+                        <div class="col-12">
+                            <div class="card-title">Add a form visual style</div>
+                            <div class="col-12">
+                                <div class="card-text font-weight-bold"><i>form-inline</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Creates a form with the inputs in the same line</li>
+                                    <li class="list-group-item">Inside a div tag you need to put this code: <code>class="form-inline"</code></li>
+                                    <li class="list-group-item">
+                                        <form class="form-inline">
+                                            <div class="form-group mb-2">
+                                                <label for="staticEmail2" class="sr-only">Email</label>
+                                                <input type="text" class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+                                            </div>
+                                            <div class="form-group mx-sm-3 mb-2">
+                                                <label for="inputPassword2" class="sr-only">Password</label>
+                                                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                                            </div>
+                                            <button type="button" class="btn btn-primary mb-2">Confirm identity</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12">
+                                <div class="card-text font-weight-bold"><i>readonly</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Makes an input tag to only be able to read it and not write on it</li>
+                                    <li class="list-group-item">Inside a input tag put readonly, for instance: <code>&lt;input class="form-control" type="text" placeholder="Readonly input here…" readonly&gt;</code></li>
+                                    <li class="list-group-item">
+                                        <form class="form-inline">
+                                            <div class="form-group mb-2">
+                                                <label for="staticEmail2" class="sr-only">Email</label>
+                                                <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
+                                            </div>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12">
+                                <div class="card-text font-weight-bold"><i>form-control-file</i></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Serves as the point of connection between the user and the server to add files</li>
+                                    <li class="list-group-item">In a input tag with type file, you need to put this code: <code>class="form-control-file"</code></li>
+                                    <li class="list-group-item">
+                                        <form>
+                                            <div class="form-group">
+                                                <label class="font-weight-bold" for="exampleFormControlFile1">Example file input</label>
+                                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                            </div>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
