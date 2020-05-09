@@ -1,3 +1,3 @@
-GUYS CAN YOU SEND EMAIL TO ME ABOUT THE DISTRIBUTION OF TASKS..
+Tasks to do:
 
-kayacekovic@gmail.com
+Fix search form
