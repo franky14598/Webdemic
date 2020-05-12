@@ -14,7 +14,9 @@ img{
 p{
   text-align: center;
 }
-
+table{
+  margin: 0 auto;
+}
 table,td{
   border:solid;
   border-collapse: collapse;
@@ -58,7 +60,7 @@ table img{
 .header {
   padding: 60px;
   text-align: center;
-  background: #563d7c;
+  background: linear-gradient(to bottom, #563d7c , #A74C3B);
   color: white;
 }
 
@@ -66,8 +68,7 @@ table img{
   min-width: 150px;
   max-width: 200px;
   flex: 10%;
-  background-color: #C3C3C3;
-}
+background: linear-gradient(to left, #C3C3C3, #FFFFFF);}
 
 .content {
   flex: 70%;
@@ -99,7 +100,7 @@ table img{
 }
 
 .footer {
-  background: #563d7c;
+  background: linear-gradient(to top, #563d7c , #A74C3B);
   color: #d3d3d3;
   height: auto;
   display: -webkit-flex;
