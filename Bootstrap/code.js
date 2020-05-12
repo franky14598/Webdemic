@@ -1,23 +1,35 @@
-
 function buscar(){
 
-  var searches=document.getElementById("search").value;
-  var lowcase=searches.toLowerCase();
+  var busqueda =document.getElementById("search").value;
 
-  var row=document.getElementsByTagName("tr");
-  var table=document.getElementsByTagName("table");
-  var tdtable=document.getElementsByTagName("td");
+  var cadenMin=busqueda.toLowerCase();
 
+  var filas=document.getElementsByTagName("table");
 
-  for (var i=0;i<row.length;i++){
+  var haches=document.getElementsByTagName("h2");
 
-    var textstring = tdtable[i].textContent.toLowerCase();
-    var n =textstring.includes(lowcase);
+  var paragraph=document.getElementsByTagName("p");
+
+      // ** bucle **
+
+  for (var i=0;i<filas.length;i++){
+
+    var texto = haches[i].textContent.toLowerCase();
+
+    var n =texto.includes(cadenMin);
 
      if ( n ){
-       row[i+1].setAttribute("class","show");
-     }else{row[i+1].setAttribute("class","hidde");}
+       haches[i].setAttribute("class","show");
+       filas[i].setAttribute("class","show");
+       paragraph[i+1].setAttribute("class","show");
 
-      row[0].setAttribute("class","show");
+
+     }else{filas[i].setAttribute("class","hidde");
+
+      haches[i].setAttribute("class","hidde");
+
+     paragraph[i+1].setAttribute("class","hidde");
+   }
     }
+
 }

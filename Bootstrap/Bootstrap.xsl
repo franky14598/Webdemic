@@ -40,9 +40,10 @@
             <p class="content-title">
               Bootstrap Classes
             </p>
-            <p>Search: <input type="text" id="search"/>
-              &#160; <input type="button" value="Search" onclick="buscar();"/>
-            </p>
+
+          <h5 style="text-align:center;font-weight:normal;">  Search by class: <input type="text" id="search"/>
+              &#160; <input type="button" value="Search" onclick="buscar();"/></h5>
+
 
                   <xsl:for-each select="//class">
 
@@ -85,7 +86,8 @@
             <p id="team3">Team 3: Álvaro, Pablo Valverde y Francisco Aranda</p>
           </div>
           <div class="schools">
-            <a href="https://twinspace.etwinning.net/about"><img id="twin-logo" alt="Logotype Twinspace" src="img/webdemic.png"/></a>
+            <img alt="webdemic" src="img/webdemic.png"/>
+            <a href="https://twinspace.etwinning.net/about"><img id="twin-logo" alt="Logotype Twinspace" src="img/etwinning.png"/></a>
             <a href="http://iesseveroochoa.edu.gva.es/index.php/es/"><img id="logo-severo" alt="IES Severo Ochoa" src="img/severo-ochoa.png"/></a>
             <a href="http://borusan.meb.k12.tr/"><img alt="Borusan" src="img/meb-logo.png"/></a>
           </div>

@@ -26,6 +26,7 @@ table img{
   width: 100px;
   height: 100px;
 }
+
 /*CSS to class attributes*/
 
 .menu ul {
@@ -109,7 +110,7 @@ table img{
 .schools{
   padding:15px;
   float: right;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .creativeC{
@@ -164,4 +165,8 @@ visibility: hidden;
 
 #logo-severo{
   width: 150px;
+}
+
+#twin-logo{
+  width: 60px;
 }

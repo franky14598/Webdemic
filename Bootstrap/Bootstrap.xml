@@ -97,11 +97,13 @@
 						<nameType>card-body</nameType>
 						<descriptionType>Card-body creates a little panel with the possibility of adding a text content inside it</descriptionType>
 						<useExample>Inside a div tag you need to add this: "class="card-body"" </useExample>
+						<image>img/card.png</image>
 					</type>
 					<type>
 						<nameType>card-img-top</nameType>
 						<descriptionType> Inside a div with a card class, this class add one image on the top of the card panel</descriptionType>
 						<useExample> Inside a img tag you need to add this: "class="card-img-top""</useExample>
+						<image>img/card.png</image>
 					</type>
 				</types>
 		</class>
