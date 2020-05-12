@@ -1,3 +1,4 @@
+Primera versión:
 Página HTML: Pablo y Álvaro
 Página XML: Pablo, Álvaro y Fran
 CSS de XML: Pablo, Álvaro y Fran
@@ -5,3 +6,14 @@ CSS de XML: Pablo, Álvaro y Fran
 Fran se encontraba con problemas puesto que no tenía conexión a internet.
 El trabajo junto al equipo turco ha sido nulo, uno de su equipo nos dió un correo pero preguntamos y no recibimos respuesta de dicho correo en 5 días,
 El resto de personas del grupo turco tampoco aparecieron, mandamos mensajes por Etwinning y Gmail.
+
+Versión final:
+
+Francisco se encuentra totalmente sin conexión
+
+Creación y modificación de imagenes: Pablo Valverde
+Creación función busqueda en JavaScript: Álvaro Rodríguez
+Estilos página web: Pablo Valverde
+Retoques en los estilos: Álvaro Rodríguez
+Estructura página web: Pablo Valverde y Álvaro Rodríguez
+Página XSL: Pablo Valverde y Álvaro Rodríguez
